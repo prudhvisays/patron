@@ -1,0 +1,104 @@
+body{
+  background: #eee !important;
+}
+
+/*artistList*/
+.listImage {
+  margin:10px;
+}
+/*artistlist end*/
+/*Exclusive Booking*/
+.countInput{
+  width: 50px;
+}
+/*END of Exclusive Booking*/
+.plan ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.plan ul li {
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  padding:10px;
+}
+
+.plan ul li:last-child {
+  border-bottom: 0;
+}
+
+
+
+
+.plan h2 {
+  text-transform: uppercase;
+  color:white;
+  letter-spacing: 2px;
+  text-shadow:3px 3px 0 rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.price {
+  font-size: 20px;
+  font-family: serif;
+  margin: 10px 0;
+  color: white;
+  padding-left: 11px;
+}
+.features{
+  color:#fff;
+  overflow-y: scroll;
+  height: 30vh;
+}
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+
+
+/* Flex Container!!! */
+.pricing-grid {
+  max-width:750px;
+  margin: 0 auto;
+  display:flex;
+  align-items:center;
+}
+
+.plan {
+  background:#333;
+  margin:0px;
+  padding:20px;
+  border-radius: 4px;
+  text-align:left;
+
+  flex:1;
+  display:flex;
+  flex-wrap:wrap;
+
+}
+
+.plan > * {
+  flex:1 1 100%;
+}
+
+.plan .cta {
+  align-self:flex-end;
+  text-align: center;
+}
+
+.slider-container{
+  margin: 0 auto;
+  padding: 10px;
+  width: 50%;
+  color: #333;
+  /*background: #419be0;*/
+}
