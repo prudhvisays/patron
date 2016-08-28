@@ -13,7 +13,7 @@ class HomeSlider extends React.Component{
       cssEase: 'linear',
       arrows: false,
       autoplay: true,
-      autoplaySpeed: 4000,
+      autoplaySpeed: 4000
     };
     return (
       <Slider {...settings}>

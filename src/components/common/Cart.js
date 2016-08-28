@@ -13,25 +13,9 @@ class Cart extends React.Component {
 
 
                     <ul className="features">
-                      <li>Scratches everythingScratches everythingScratches everything</li>
-                      <li>Easily lost for days</li>
-                      <li>Kind of a bummer</li>
-                      <li>Kind of a bummer</li>
-                      <li>Kind of a bummer</li>
-                      <li>Kind of a bummer</li>
-                      <li>Kind of a bummer</li>
-                      <li>Kind of a bummer</li>
-                      <li>Kind of a bummer</li>
-                      <li>Kind of a bummer</li>
-                      <li>Kind of a bummer</li>
-                      <li>Kind of a bummer</li>
-                      <li>Kind of a bummer</li>
-                      <li>Kind of a bummer</li>
-                      <li>Kind of a bummer</li>
-                      <li>Kind of a bummer</li>
-                      <li>Kind of a bummer</li>
-                      <li>Kind of a bummer</li>
-                      <li>Kind of a bummer</li>
+                      <li>
+                        Sound Equalizer
+                      </li>
                     </ul>
 
 

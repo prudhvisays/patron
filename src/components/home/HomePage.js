@@ -2,6 +2,7 @@ import React from 'react';
 import {Link} from 'react-router';
 import Cart from "../common/Cart";
 import HomeSlider from "../sliders/HomeSlider";
+import HomeSlider1 from "../sliders/HomeSlider1";
 
 class HomePage extends React.Component {
   render(){
@@ -24,7 +25,7 @@ class HomePage extends React.Component {
         <div className="column paddingleft"><HomeSlider/></div>
       </div>
       <div className="ui two column grid margin-top heightvh">
-        <div className="column paddingright"><HomeSlider/></div>
+        <div className="column paddingright"><HomeSlider1/></div>
         <div className="column paddingleft"><div className="ui segment heightvh">About</div></div>
       </div>
 

@@ -1,7 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
 import Cart from "../common/Cart";
-import Gallery from "../gallery/ArtistGallery"
+import Gallery from "../gallery/ArtistGallery";
 
 class ArtistProfile extends React.Component {
   render() {
@@ -16,7 +16,7 @@ class ArtistProfile extends React.Component {
             <div className="six wide column">
             <div className="ui card text">
                 <div className="image">
-                  <img className="" src="https://farm4.staticflickr.com/3510/3780855611_dcce5cc376.jpg"/>
+                  <img src="https://farm4.staticflickr.com/3510/3780855611_dcce5cc376.jpg"/>
                 </div>
                 <div className="content">
                   <a className="header">Kristy</a>
