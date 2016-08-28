@@ -26,10 +26,11 @@ class Header extends React.Component {
         Exclusive Booking
         </a>
       <div className="content">
-        <Link to="artistprofile" className="item">Artist Profile <div className="ui label">10000</div></Link>
-        <Link to="exclusivebook" className="item">Sound<div className="ui label">51</div></Link>
-        <Link to="artistlist" className="item">Artist Booking <div className="ui label">51</div></Link>
-        <Link to="artistlist" className="item">Artist Booking <div className="ui label">51</div></Link>
+        <Link to="exclusivebook" className="item">Sound</Link>
+        <Link to="exclusivebook" className="item">Lighting</Link>
+        <Link to="exclusivebook" className="item">Tent House</Link>
+        <Link to="exclusivebook" className="item">Console</Link>
+        <Link to="exclusivebook" className="item">After Effects<div className="ui label"> 5,000</div></Link>
       </div>
       </div>
       <Link to="artistlist" className="item">Artist Booking</Link>

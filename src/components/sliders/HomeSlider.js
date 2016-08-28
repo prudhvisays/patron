@@ -17,9 +17,9 @@ class HomeSlider extends React.Component{
     };
     return (
       <Slider {...settings}>
-        <div><img className="sliderImage" src="https://upload.wikimedia.org/wikipedia/commons/6/67/Inside_the_Batad_rice_terraces.jpg" /></div>
-        <div><img className="sliderImage" src="https://farm1.staticflickr.com/110/316612922_38fb0698f5.jpg" /></div>
-        <div><img className="sliderImage" src="https://farm5.staticflickr.com/4085/5012797184_caa2c287fd.jpg" /></div>
+        <div><img className="sliderImage" src="http://im.ziffdavisinternational.com/t/ign_za/articlepage/r/report-harmonix-is-developing-a-new-rock-band-game/report-harmonix-is-developing-a-new-rock-band-game_ebx2.1920.jpg" /></div>
+        <div><img className="sliderImage" src="http://holifestival.com/files/userdata/images/holi-feast-3.jpeg" /></div>
+        <div><img className="sliderImage" src="http://photovide.com/wp-content/uploads/2013/10/ADE/30.jpg" /></div>
       </Slider>
     );
   }
