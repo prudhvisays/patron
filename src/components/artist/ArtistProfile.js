@@ -1,6 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
 import Cart from "../common/Cart";
+import Gallery from "../gallery/ArtistGallery"
 
 class ArtistProfile extends React.Component {
   render() {
@@ -47,9 +48,12 @@ class ArtistProfile extends React.Component {
             </div>
           </div>
           </div>
+          <div className="ui segment">
+              <Gallery/>
+          </div>
 
       </div>
-      <div className="five wide column paddingleft">
+      <div className="five wide column paddingleft fullvh">
         <Cart />
       </div>
       </div>

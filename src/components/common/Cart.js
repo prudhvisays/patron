@@ -5,7 +5,7 @@ class Cart extends React.Component {
   render() {
     return (
 
-      <div className="ui fixed">
+
         <div className="pricing-grid">
             <div className="plan plan1">
 
@@ -20,20 +20,32 @@ class Cart extends React.Component {
                       <li>Kind of a bummer</li>
                       <li>Kind of a bummer</li>
                       <li>Kind of a bummer</li>
+                      <li>Kind of a bummer</li>
+                      <li>Kind of a bummer</li>
+                      <li>Kind of a bummer</li>
+                      <li>Kind of a bummer</li>
+                      <li>Kind of a bummer</li>
+                      <li>Kind of a bummer</li>
+                      <li>Kind of a bummer</li>
+                      <li>Kind of a bummer</li>
+                      <li>Kind of a bummer</li>
+                      <li>Kind of a bummer</li>
+                      <li>Kind of a bummer</li>
+                      <li>Kind of a bummer</li>
                     </ul>
 
 
                   <p className="price">TOTAL</p>
-                  <div className="ui animated fade orange button" tabIndex="outform">
-                    <div className="visible content">CHECKOUT</div>
-                    <div className="hidden content">
-                  <Link to="outform">21000/-</Link>
+                    <div className="ui animated fade orange button" tabIndex="outform">
+                      <div className="visible content">CHECKOUT</div>
+                      <div className="hidden content">
+                    <Link to="outform">21000/-</Link>
+                      </div>
                     </div>
-                  </div>
 
                 </div>
         </div>
-          </div>
+
 
     );
   }

@@ -40,38 +40,39 @@ class ArtistList extends React.Component {
 </h3>
 <div className="ui raised segment">
       <div className="ui vertical segment">
+        <h3>DJ</h3>
       <Slider {...settings}>
       <div className="ui fluid image listImage">
             <div className="ui black ribbon label">
-              <i className="hotel icon"></i> DJ
+               DJ
             </div>
             <img  src="https://farm1.staticflickr.com/7/5954480_34a881115f.jpg"/>
             <div className="ui bottom attached label">CSS</div>
           </div>
       <div className="ui fluid image listImage">
             <div className="ui black ribbon label">
-              <i className="hotel icon"></i> DJ
+               DJ
             </div>
             <img  src="https://farm1.staticflickr.com/7/5954480_34a881115f.jpg"/>
             <div className="ui bottom attached label">CSS</div>
           </div>
       <div className="ui fluid image listImage">
             <div className="ui black ribbon label">
-              <i className="hotel icon"></i> DJ
+               DJ
             </div>
             <img  src="https://farm1.staticflickr.com/7/5954480_34a881115f.jpg"/>
             <div className="ui bottom attached label">CSS</div>
           </div>
       <div className="ui fluid image listImage">
             <div className="ui black ribbon label">
-              <i className="hotel icon"></i> DJ
+               DJ
             </div>
             <img  src="https://farm1.staticflickr.com/7/5954480_34a881115f.jpg"/>
             <div className="ui bottom attached label">CSS</div>
           </div>
       <div className="ui fluid image listImage">
             <div className="ui black ribbon label">
-              <i className="hotel icon"></i> DJ
+               DJ
             </div>
             <img  src="https://farm1.staticflickr.com/7/5954480_34a881115f.jpg"/>
             <div className="ui bottom attached label">CSS</div>
@@ -80,82 +81,42 @@ class ArtistList extends React.Component {
 
       </Slider>
       </div>
+
 
       <div className="ui vertical segment">
+        <h3>Singer</h3>
       <Slider {...settings}>
       <div className="ui fluid image listImage">
             <div className="ui black ribbon label">
-              <i className="hotel icon"></i> Singer
+               Magician
             </div>
             <img  src="https://farm1.staticflickr.com/7/5954480_34a881115f.jpg"/>
             <div className="ui bottom attached label">CSS</div>
           </div>
       <div className="ui fluid image listImage">
             <div className="ui black ribbon label">
-              <i className="hotel icon"></i> Singer
+               Magician
             </div>
             <img  src="https://farm1.staticflickr.com/7/5954480_34a881115f.jpg"/>
             <div className="ui bottom attached label">CSS</div>
           </div>
       <div className="ui fluid image listImage">
             <div className="ui black ribbon label">
-              <i className="hotel icon"></i> Singer
+               Magician
             </div>
             <img  src="https://farm1.staticflickr.com/7/5954480_34a881115f.jpg"/>
             <div className="ui bottom attached label">CSS</div>
           </div>
       <div className="ui fluid image listImage">
             <div className="ui black ribbon label">
-              <i className="hotel icon"></i> Singer
+               Magician
             </div>
             <img  src="https://farm1.staticflickr.com/7/5954480_34a881115f.jpg"/>
             <div className="ui bottom attached label">CSS</div>
           </div>
       <div className="ui fluid image listImage">
             <div className="ui black ribbon label">
-              <i className="hotel icon"></i> Singer
-            </div>
-            <img  src="https://farm1.staticflickr.com/7/5954480_34a881115f.jpg"/>
-            <div className="ui bottom attached label">CSS</div>
-          </div>
-
-
-      </Slider>
-      </div>
-
-      <div className="ui vertical segment">
-      <Slider {...settings}>
-      <div className="ui fluid image listImage">
-            <div className="ui black ribbon label">
-              <i className="hotel icon"></i> Magician
-            </div>
-            <img  src="https://farm1.staticflickr.com/7/5954480_34a881115f.jpg"/>
-            <div className="ui bottom attached label">CSS</div>
-          </div>
-      <div className="ui fluid image listImage">
-            <div className="ui black ribbon label">
-              <i className="hotel icon"></i> Magician
-            </div>
-            <img  src="https://farm1.staticflickr.com/7/5954480_34a881115f.jpg"/>
-            <div className="ui bottom attached label">CSS</div>
-          </div>
-      <div className="ui fluid image listImage">
-            <div className="ui black ribbon label">
-              <i className="hotel icon"></i> Magician
-            </div>
-            <img  src="https://farm1.staticflickr.com/7/5954480_34a881115f.jpg"/>
-            <div className="ui bottom attached label">CSS</div>
-          </div>
-      <div className="ui fluid image listImage">
-            <div className="ui black ribbon label">
-              <i className="hotel icon"></i> Magician
-            </div>
-            <img  src="https://farm1.staticflickr.com/7/5954480_34a881115f.jpg"/>
-            <div className="ui bottom attached label">CSS</div>
-          </div>
-      <div className="ui fluid image listImage">
-            <div className="ui black ribbon label">
-              <i className="hotel icon"></i> Magician
+               Magician
             </div>
             <img  src="https://farm1.staticflickr.com/7/5954480_34a881115f.jpg"/>
             <div className="ui bottom attached label">CSS</div>
@@ -169,7 +130,7 @@ class ArtistList extends React.Component {
 
       </div>
       </div>
-      <div className="five wide column paddingleft">
+      <div className="five wide column paddingleft fullvh">
         <Cart />
       </div>
       </div>

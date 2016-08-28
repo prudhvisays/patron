@@ -8,9 +8,9 @@ class HomePage extends React.Component {
     return (
       <div className="ui grid">
       <div className="sixteen wide column paddingright">
-      <div className="ui two column grid">
+      <div className="ui two column grid heightvh">
         <div className="column paddingright">
-        <div className="ui segment">
+        <div className="ui segment heightvh">
         <p>About</p>
         <p>About</p>
         <p>About</p>
@@ -23,9 +23,9 @@ class HomePage extends React.Component {
         </div>
         <div className="column paddingleft"><HomeSlider/></div>
       </div>
-      <div className="ui two column grid margin-top">
+      <div className="ui two column grid margin-top heightvh">
         <div className="column paddingright"><HomeSlider/></div>
-        <div className="column paddingleft"><div className="ui segment">About</div></div>
+        <div className="column paddingleft"><div className="ui segment heightvh">About</div></div>
       </div>
 
       </div>

@@ -1,5 +1,5 @@
 body{
-  background: #555 !important;
+  background: #fff !important;
   padding: 0em;
 }
 
@@ -51,7 +51,7 @@ body{
 .features{
   color:#fff;
   overflow-y: scroll;
-  height: 74vh;
+  height: 75vh;
 }
 ::-webkit-scrollbar {
     width: 5px;
@@ -141,9 +141,23 @@ body{
 
 /*Home magin*/
 .margin-top{
-  .margin-top:0 !important;
+  margin-top:1 !important;
+}
+.margin-bottom{
+  margin-bottom: 0 !important;
 }
 
+.padding-top{
+  padding-top:0 !important;
+}
+
+/*view port */
+.heightvh{
+  height:50vh !important;
+}
+.fullvh{
+  height:100vh !important;
+}
 /********************END of semantic ui****************/
 
 /*SLiders*/
@@ -159,7 +173,7 @@ body{
       position: relative;
       text-align: center;
       min-width: 100%;
-      max-height:326px;
+      max-height:50vh;
 }
 /*End of sliders*/
 
@@ -181,5 +195,5 @@ body{
 }
 
 .widthchange {
-  width:210px;
+  width:15rem;
 }

@@ -5,7 +5,7 @@ class ComboPage extends React.Component {
   render() {
     return (
       <div className="ui grid">
-      <div className="eleven wide column">
+      <div className="eleven wide column paddingright">
                       <h3 className="ui top attached header">
                   Combo Booking
                 </h3>
@@ -36,7 +36,7 @@ class ComboPage extends React.Component {
                         </div>
                   </div>
       </div>
-      <div className="five wide column">
+      <div className="five wide column paddingleft fullvh">
         <Cart />
       </div>
       </div>

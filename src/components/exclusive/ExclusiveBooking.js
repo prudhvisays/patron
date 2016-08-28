@@ -102,7 +102,7 @@ class ExclusiveBooking extends React.Component {
 
                   </div>
       </div>
-      <div className="five wide column">
+      <div className="five wide column paddingleft fullvh">
         <Cart />
       </div>
       </div>

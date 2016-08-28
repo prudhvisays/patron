@@ -4,6 +4,7 @@ import Header from "./common/Header";
 class App extends React.Component {
    render() {
      return (
+       <div className="ui fluid container">
                 <div className="ui grid">
                     <div className="widthchange">
                     <Header />
@@ -14,6 +15,7 @@ class App extends React.Component {
                   </div>
 
                 </div>
+              </div>
 
 
      );
