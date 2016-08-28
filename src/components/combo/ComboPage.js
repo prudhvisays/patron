@@ -24,28 +24,7 @@ class ComboPage extends React.Component {
                             <p></p>
                           </div>
                           <div className="extra">
-                            <div className="ui right floated primary button">
-                              Add To Cart
-                              <i className="right chevron icon"></i>
-                            </div>
-                            <div className="ui label">Limited</div>
-                          </div>
-                        </div>
-                        </div>
-                        <div className="item">
-                        <div className="image">
-                          <img src="/images/wireframe/image.png" />
-                        </div>
-                        <div className="content">
-                          <a className="header">My Neighbor Totoro</a>
-                          <div className="meta">
-                            <span className="cinema">PRICE</span>
-                          </div>
-                          <div className="description">
-                            <p></p>
-                          </div>
-                          <div className="extra">
-                            <div className="ui right floated primary button">
+                            <div className="ui right floated orange button">
                               Add To Cart
                               <i className="right chevron icon"></i>
                             </div>

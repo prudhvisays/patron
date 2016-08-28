@@ -1,5 +1,6 @@
 body{
-  background: #eee !important;
+  background: #555 !important;
+  padding: 0em;
 }
 
 /*artistList*/
@@ -27,7 +28,9 @@ body{
   border-bottom: 0;
 }
 
-
+.plan1 a{
+  color:#fff;
+}
 
 
 .plan h2 {
@@ -48,7 +51,7 @@ body{
 .features{
   color:#fff;
   overflow-y: scroll;
-  height: 30vh;
+  height: 74vh;
 }
 ::-webkit-scrollbar {
     width: 5px;
@@ -74,10 +77,9 @@ body{
 }
 
 .plan {
-  background:#333;
+  background:#111;
   margin:0px;
   padding:20px;
-  border-radius: 4px;
   text-align:left;
 
   flex:1;
@@ -101,4 +103,83 @@ body{
   width: 50%;
   color: #333;
   /*background: #419be0;*/
+}
+
+/***************** semantic ui changes ************/
+
+/*Border Radius*/
+.ui.segment, .ui.button, .ui.card, .ui.input input {
+  border-radius: 0 !important;
+}
+.ui.card>.image>img, .ui.cards>.card>.image>img{
+  border-radius: 0 !important;
+}
+
+.ui.card>:last-child, .ui.cards>.card>:last-child{
+  border-radius:0 0 0 0 !important;
+}
+/*END of Border radius*/
+.ui.attached.button {
+  box-shadow: none !important;
+}
+
+/*padding*/
+.paddingright{
+  padding-right: 0 !important;
+}
+.paddingleft{
+  padding-left: 0 !important;
+}
+
+.article{
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-width: 0px;
+}
+
+/*Home magin*/
+.margin-top{
+  .margin-top:0 !important;
+}
+
+/********************END of semantic ui****************/
+
+/*SLiders*/
+.slick-list {
+
+}
+
+.sliderImage{
+      background: #fff;
+      color: #3498db;
+      font-size: 36px;
+      line-height: 100px;
+      position: relative;
+      text-align: center;
+      min-width: 100%;
+      max-height:326px;
+}
+/*End of sliders*/
+
+
+.leftrail{
+  min-height: 262.531px;
+}
+
+.stickui{
+  width: 272px !important; height: 262.531px !important; left: -2.5px;
+}
+
+.rightrail{
+  min-height: 262.531px;
+}
+
+.stickuiright{
+  width: 272px !important; height: 262.531px !important; left: 1079.5px;
+}
+
+.widthchange {
+  width:210px;
 }

@@ -6,11 +6,11 @@ class ArtistProfile extends React.Component {
   render() {
     return (
       <div className="ui grid">
-      <div className="eleven wide column">
+      <div className="eleven wide column paddingright">
       <h3 className="ui top attached header">
             Artist Profile
           </h3>
-          <div className="ui stackable grid container piled segment">
+          <div className="ui stackable grid container raised segment">
           <div className="row">
             <div className="six wide column">
             <div className="ui card text">
@@ -23,7 +23,7 @@ class ArtistProfile extends React.Component {
                     <span className="date">DJ ARTIST</span>
                   </div>
                 </div>
-                <div className="ui basic green button extra content">
+                <div className="ui extra content orange button">
 
                       <i className="add icon"></i>
                       Add To Cart
@@ -49,7 +49,7 @@ class ArtistProfile extends React.Component {
           </div>
 
       </div>
-      <div className="five wide column">
+      <div className="five wide column paddingleft">
         <Cart />
       </div>
       </div>

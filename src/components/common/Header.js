@@ -14,9 +14,9 @@ class Header extends React.Component {
 
   render() {
     return (
-      <div className="ui vertical accordion menu left fixed" ref="products">
+      <div className="ui vertical inverted accordion menu left fixed" ref="products">
       <div className="item">
-        <img className="ui mini image" src="" />
+        <img className="ui mini image" src="logo.png" />
       </div>
       <Link to="/" className="item">Home</Link>
       <Link to="combo" className="item">Combo Booking</Link>

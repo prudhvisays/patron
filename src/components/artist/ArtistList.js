@@ -9,7 +9,7 @@ class ArtistList extends React.Component {
       infinite: false,
       speed: 500,
       slidesToShow: 4,
-      slidesToScroll: 4,
+      slidesToScroll: 5,
       responsive: [{
           breakpoint: 1024,
           settings: {
@@ -34,7 +34,7 @@ class ArtistList extends React.Component {
     };
     return (
       <div className="ui grid">
-      <div className="eleven wide column">
+      <div className="eleven wide column paddingright">
       <h3 className="ui top attached header">
   Artist Booking
 </h3>
@@ -169,7 +169,7 @@ class ArtistList extends React.Component {
 
       </div>
       </div>
-      <div className="five wide column">
+      <div className="five wide column paddingleft">
         <Cart />
       </div>
       </div>

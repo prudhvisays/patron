@@ -4,7 +4,7 @@ import $ from "jquery";
 
 class ExclusiveBooking extends React.Component {
   componentDidMount() {
-    $('this.refs.producttypes')
+    $(this.refs.producttypes)
     .dropdown()
   ;
 
@@ -12,7 +12,7 @@ class ExclusiveBooking extends React.Component {
   render() {
     return (
       <div className="ui grid">
-      <div className="eleven wide column">
+      <div className="eleven wide column paddingright">
               <h3 className="ui top attached header">
                     Exclusive Booking
                   </h3>
@@ -55,15 +55,15 @@ class ExclusiveBooking extends React.Component {
                   </div>
                   <div className="five wide column">
                                         <div className="ui mini icon input buttons">
-                                        <button className="mini ui left attached button"><i className="minus icon"></i></button>
+                                        <button className="mini ui left attached orange button"><i className="ui inverted minus icon"></i></button>
                       <input className="countInput" type="text" placeholder="5"/>
-                      <button className="right attached mini ui button"><i className="plus icon"></i></button>
+                      <button className="right attached mini ui orange button"><i className="ui inverted plus icon"></i></button>
 
                       </div>
                                   </div>
                   <div className="three wide column centered"><h4>Amount: <span>10000</span></h4></div>
                 </div>
-                <div className="ui row middle aligned">
+                <div className="ui row middle aligned stackable">
                   <div className="three wide column">
                   <div className="ui image">
                   <div className="ui top attached label">HTML</div>
@@ -71,7 +71,7 @@ class ExclusiveBooking extends React.Component {
                   </div>
                   </div>
 
-                  <div className="five wide column">
+                  <div className="five wide column paddingleft">
                               <h4 className="ui header">
                             <i className="trophy icon"></i>
                             <div className="content">
@@ -89,7 +89,7 @@ class ExclusiveBooking extends React.Component {
                             </div>
                           </h4>
                   </div>
-                  <div className="five wide column">
+                  <div className="five wide column paddingleft">
                                         <div className="ui mini icon input buttons">
                                         <button className="mini ui left attached button"><i className="minus icon"></i></button>
                       <input className="countInput" type="text" placeholder="5"/>

@@ -5,10 +5,11 @@ class App extends React.Component {
    render() {
      return (
                 <div className="ui grid">
-                    <div className="three wide column">
+                    <div className="widthchange">
                     <Header />
                     </div>
-                  <div className="thirteen wide column">
+
+                  <div className="thirteen wide column article">
                     {this.props.children}
                   </div>
 

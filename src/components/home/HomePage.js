@@ -7,11 +7,27 @@ class HomePage extends React.Component {
   render(){
     return (
       <div className="ui grid">
-      <div className="eleven wide column">
-      <HomeSlider/>
+      <div className="sixteen wide column paddingright">
+      <div className="ui two column grid">
+        <div className="column paddingright">
+        <div className="ui segment">
+        <p>About</p>
+        <p>About</p>
+        <p>About</p>
+        <p>About</p>
+        <p>About</p>
+        <p>About</p>
+        <p>About</p>
+        <p>About</p>
+        </div>
+        </div>
+        <div className="column paddingleft"><HomeSlider/></div>
       </div>
-      <div className="five wide column">
-        <Cart />
+      <div className="ui two column grid margin-top">
+        <div className="column paddingright"><HomeSlider/></div>
+        <div className="column paddingleft"><div className="ui segment">About</div></div>
+      </div>
+
       </div>
       </div>
 
