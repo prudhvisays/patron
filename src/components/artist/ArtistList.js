@@ -1,5 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
+import {Link, IndexLink} from "react-router";
 import Cart from "../common/Cart";
 
 class ArtistList extends React.Component {
@@ -46,35 +47,45 @@ class ArtistList extends React.Component {
             <div className="ui black ribbon label">
                DJ
             </div>
-            <img  src="https://farm1.staticflickr.com/7/5954480_34a881115f.jpg"/>
+            <Link to="artistprofile">
+              <img  src="https://farm1.staticflickr.com/7/5954480_34a881115f.jpg"/>
+            </Link>
             <div className="ui bottom attached label">CSS</div>
           </div>
       <div className="ui fluid image listImage">
             <div className="ui black ribbon label">
                DJ
             </div>
-            <img  src="https://farm1.staticflickr.com/7/5954480_34a881115f.jpg"/>
+            <Link to="artistprofile">
+              <img  src="https://farm1.staticflickr.com/7/5954480_34a881115f.jpg"/>
+            </Link>
             <div className="ui bottom attached label">CSS</div>
           </div>
       <div className="ui fluid image listImage">
             <div className="ui black ribbon label">
                DJ
             </div>
-            <img  src="https://farm1.staticflickr.com/7/5954480_34a881115f.jpg"/>
+            <Link to="artistprofile">
+              <img  src="https://farm1.staticflickr.com/7/5954480_34a881115f.jpg"/>
+            </Link>
             <div className="ui bottom attached label">CSS</div>
           </div>
       <div className="ui fluid image listImage">
             <div className="ui black ribbon label">
                DJ
             </div>
-            <img  src="https://farm1.staticflickr.com/7/5954480_34a881115f.jpg"/>
+            <Link to="artistprofile">
+              <img  src="https://farm1.staticflickr.com/7/5954480_34a881115f.jpg"/>
+            </Link>
             <div className="ui bottom attached label">CSS</div>
           </div>
       <div className="ui fluid image listImage">
             <div className="ui black ribbon label">
                DJ
             </div>
-            <img  src="https://farm1.staticflickr.com/7/5954480_34a881115f.jpg"/>
+            <Link to="artistprofile">
+              <img  src="https://farm1.staticflickr.com/7/5954480_34a881115f.jpg"/>
+            </Link>
             <div className="ui bottom attached label">CSS</div>
           </div>
 
@@ -86,41 +97,52 @@ class ArtistList extends React.Component {
       <div className="ui vertical segment">
         <h3>Singer</h3>
       <Slider {...settings}>
-      <div className="ui fluid image listImage">
+        <div className="ui fluid image listImage">
             <div className="ui black ribbon label">
                Magician
             </div>
-            <img  src="https://farm1.staticflickr.com/7/5954480_34a881115f.jpg"/>
+            <Link to="artistprofile">
+              <img  src="https://farm1.staticflickr.com/7/5954480_34a881115f.jpg"/>
+            </Link>
             <div className="ui bottom attached label">CSS</div>
+        </div>
+          <div className="ui fluid image listImage">
+              <div className="ui black ribbon label">
+                 Magician
+              </div>
+              <Link to="artistprofile">
+                <img  src="https://farm1.staticflickr.com/7/5954480_34a881115f.jpg"/>
+              </Link>
+              <div className="ui bottom attached label">CSS</div>
           </div>
-      <div className="ui fluid image listImage">
+          <div className="ui fluid image listImage">
+              <div className="ui black ribbon label">
+                 Magician
+              </div>
+              <Link to="artistprofile">
+                <img  src="https://farm1.staticflickr.com/7/5954480_34a881115f.jpg"/>
+              </Link>
+              <div className="ui bottom attached label">CSS</div>
+          </div>
+          <div className="ui fluid image listImage">
+              <div className="ui black ribbon label">
+                 Magician
+              </div>
+              <Link to="artistprofile">
+                <img  src="https://farm1.staticflickr.com/7/5954480_34a881115f.jpg"/>
+              </Link>
+              <div className="ui bottom attached label">CSS</div>
+          </div>
+
+        <div className="ui fluid image listImage">
             <div className="ui black ribbon label">
                Magician
             </div>
-            <img  src="https://farm1.staticflickr.com/7/5954480_34a881115f.jpg"/>
+            <Link to="artistprofile">
+              <img  src="https://farm1.staticflickr.com/7/5954480_34a881115f.jpg"/>
+            </Link>
             <div className="ui bottom attached label">CSS</div>
-          </div>
-      <div className="ui fluid image listImage">
-            <div className="ui black ribbon label">
-               Magician
-            </div>
-            <img  src="https://farm1.staticflickr.com/7/5954480_34a881115f.jpg"/>
-            <div className="ui bottom attached label">CSS</div>
-          </div>
-      <div className="ui fluid image listImage">
-            <div className="ui black ribbon label">
-               Magician
-            </div>
-            <img  src="https://farm1.staticflickr.com/7/5954480_34a881115f.jpg"/>
-            <div className="ui bottom attached label">CSS</div>
-          </div>
-      <div className="ui fluid image listImage">
-            <div className="ui black ribbon label">
-               Magician
-            </div>
-            <img  src="https://farm1.staticflickr.com/7/5954480_34a881115f.jpg"/>
-            <div className="ui bottom attached label">CSS</div>
-          </div>
+        </div>
 
 
       </Slider>
