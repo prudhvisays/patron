@@ -118,6 +118,10 @@ body{
 .ui.card>:last-child, .ui.cards>.card>:last-child{
   border-radius:0 0 0 0 !important;
 }
+
+.ui.card, .ui.cards>.card{
+  box-shadow: none !important;
+}
 /*END of Border radius*/
 .ui.attached.button {
   box-shadow: none !important;
@@ -158,7 +162,7 @@ body{
   margin-right: 0 !important;
 }
 .marginleft{
-  margin-left:15px !important;
+  margin-left:7px !important;
 }
 .margin-left{
   margin-left:0 !important;

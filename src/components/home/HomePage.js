@@ -21,7 +21,7 @@ class HomePage extends React.Component {
       <div className="ui two column grid margin-top heightvh">
         <div className="column paddingright"><HomeSlider1/></div>
         <div className="column paddingleft heightvh">
-        <div className="ui two stackable cards">
+        <div className="ui cards heightvh">
 
                 <div className="card margin-right paddingleft marginleft border-radius vhtwentyfive margin-bottom">
                   <div className="ui image">
