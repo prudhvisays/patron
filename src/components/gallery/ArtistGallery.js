@@ -12,76 +12,60 @@ export default class ArtistGallery extends React.Component {
 const PHOTO_SET = [
   {
     src: 'thumb.jpg',
-    width: 681,
-    height: 1024,
-    aspectRatio: 1.5,
+    width: 289,
+    height: 289,
+    aspectRatio: 1,
     lightboxImage:{
     src: 'thumb.jpg',
     srcset: [
-      'thumb.jpg 1024w',
-      'thumb.jpg 800w',
-      'thumb.jpg 500w',
-      'thumb.jpg 320w'
     ]
     }
   },
   {
     src: 'thumb.jpg',
-    width: 600,
-    height: 600,
+    width: 216,
+    height: 143,
     aspectRatio: 1,
     lightboxImage:{
     src: 'thumb.jpg',
     srcset: [
-      'thumb.jpg 1024w',
-      'thumb.jpg 800w',
-      'thumb.jpg 500w',
-      'thumb.jpg 320w'
+
     ]
     }
   },
   {
     src: 'thumb.jpg',
-    width: 600,
-    height: 600,
+    width: 216,
+    height: 143,
     aspectRatio: 1,
     lightboxImage:{
     src: 'thumb.jpg',
     srcset: [
-      'thumb.jpg 1024w',
-      'thumb.jpg 800w',
-      'thumb.jpg 500w',
-      'thumb.jpg 320w'
+
     ]
     }
   },
   {
     src: 'thumb.jpg',
-    width: 600,
-    height: 600,
+    width: 216,
+    height: 143,
     aspectRatio: 1,
     lightboxImage:{
     src: 'thumb.jpg',
     srcset: [
-      'thumb.jpg 1024w',
-      'thumb.jpg 800w',
-      'thumb.jpg 500w',
-      'thumb.jpg 320w'
+
     ]
     }
   },
   {
     src: 'thumb.jpg',
-    width: 600,
-    height: 600,
+    width: 216,
+    height: 143,
     aspectRatio: 1,
     lightboxImage:{
     src: 'thumb.jpg',
     srcset: [
-      'thumb.jpg 1024w',
-      'thumb.jpg 800w',
-      'thumb.jpg 500w',
-      'thumb.jpg 320w'
+
     ]
     }
   }

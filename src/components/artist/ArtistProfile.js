@@ -33,7 +33,7 @@ class ArtistProfile extends React.Component {
                     <span className="date">DJ ARTIST</span>
                   </div>
                 </div>
-                <div className="ui extra content orange button">
+                <div className="ui orange button">
 
                       <i className="add icon"></i>
                       Add To Cart
@@ -58,6 +58,7 @@ class ArtistProfile extends React.Component {
           </div>
           </div>
           <div className="ui segment">
+          <h3>RECENT SHOWS</h3>
               <Gallery/>
           </div>
 
