@@ -20,15 +20,49 @@ class HomePage extends React.Component {
       </div>
       <div className="ui two column grid margin-top heightvh">
         <div className="column paddingright"><HomeSlider1/></div>
-        <div className="column paddingleft">
-          <div className="ui very padded segment heightvh">
-           <h3 className="ui center aligned header orange"> TEAM </h3> <br/>
-          </div>
-        </div>
+        <div className="column paddingleft heightvh">
+        <div className="ui two stackable cards">
+
+                <div className="card margin-right paddingleft marginleft border-radius vhtwentyfive margin-bottom">
+                  <div className="ui image">
+                    <div className="vhtwentyfive paddedcenter">
+                    <h3 className="ui orange header">TEAM</h3></div>
+
+                  </div>
+                </div>
+                <div className="card margin-right margin-left border-radius  vhtwentyfive margin-bottom">
+                <div className="ui fade reveal image">
+                  <img className="vhtwentyfive ui visible content" src="karthik.jpg"/>
+                  <div className="vhtwentyfive ui hidden content paddedcenter">
+                  <h3 className="ui orange header">FOUNDER</h3></div>
+
+                </div>
+                </div>
+                <div className="card margin-right paddingleft marginleft border-radius vhtwentyfive margintop">
+                <div className="ui fade reveal image">
+                  <img className="vhtwentyfive ui visible content" src="divya.jpg"/>
+                  <div className="vhtwentyfive ui hidden content paddedcenter">
+                  <h3 className="ui orange header">CO-FOUNDER</h3></div>
+
+                </div>
+                </div>
+                <div className="card margin-right margin-left border-radius vhtwentyfive margintop">
+                <div className="ui fade reveal image">
+                  <img className="vhtwentyfive ui visible content" src="deepak.jpg"/>
+                  <div className="vhtwentyfive ui hidden content  paddedcenter">
+                  <h3 className="ui orange header">CO-FOUNDER</h3></div>
+
+                </div>
+                </div>
+
       </div>
 
       </div>
       </div>
+      </div>
+      </div>
+
+
 
 
 

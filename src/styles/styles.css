@@ -143,6 +143,9 @@ body{
 .margin-top{
   margin-top:1 !important;
 }
+.margintop{
+  margin-top: 0 !important;
+}
 .margin-bottom{
   margin-bottom: 0 !important;
 }
@@ -151,12 +154,35 @@ body{
   padding-top:0 !important;
 }
 
+.margin-right{
+  margin-right: 0 !important;
+}
+.marginleft{
+  margin-left:15px !important;
+}
+.margin-left{
+  margin-left:0 !important;
+}
+
+.border-radius{
+  border-radius: 0 !important;
+}
+
+.paddedcenter{
+  text-align: center;
+  padding-top: 12vh;
+}
+
+
 /*view port */
 .heightvh{
   height:50vh !important;
 }
 .fullvh{
   height:100vh !important;
+}
+.vhtwentyfive{
+  height:25vh !important;
 }
 /********************END of semantic ui****************/
 

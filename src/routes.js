@@ -7,6 +7,7 @@ import ArtistList from './components/artist/ArtistList';
 import ArtistProfile from './components/artist/ArtistProfile';
 import ExclusiveBooking from './components/exclusive/ExclusiveBooking';
 import OutForm from './components/outform/OutForm';
+import ContactUs from './components/support/ContactUs';
 
 
 export default (
@@ -17,5 +18,6 @@ export default (
     <Route path="artistprofile" component={ArtistProfile}/>
     <Route path="exclusivebook" component={ExclusiveBooking}/>
     <Route path="outform" component={OutForm}/>
+    <Route path="contactus" component={ContactUs}/>
   </Route>
 );
