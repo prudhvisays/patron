@@ -3,28 +3,43 @@ import Cart from "../common/Cart";
 import $ from "jquery";
 
 class ExclusiveBooking extends React.Component {
-  componentDidMount() {
-    $(this.refs.producttypes)
-    .dropdown()
-  ;
+
+  constructor(){
+    super();
+
+    this.state = { cartItems : [{ title: 'Product ', price: 3000, quantity: '1'}] };
 
   }
+
+  componentDidMount() {
+    $(this.refs.producttypes).dropdown();
+
+    this.addToCart = this.addToCart.bind(this);
+
+  }
+
+  addToCart(){
+    let item = { title: 'Product ' + (this.state.cartItems.length + 1), price: 3000, quantity: '1'};
+    this.state.cartItems.push(item);
+  }
+
+
   render() {
     return (
       <div className="ui grid">
       <div className="eleven wide column paddingright">
-              <h3 className="ui top attached header">
+                <h3 className="ui top attached header">
                     Exclusive Booking
-                  </h3>
+                </h3>
 
                 <div className="ui top attached header clearing segment">
                       <h3 className="ui right floated header">
-                      100000
+                      1,00,000
                       </h3>
                       <h3 className="ui left floated header">
-                        Sound
+                      Sound
                       </h3>
-                    </div>
+              </div>
 
               <div className="ui attached segment grid cotainer">
                 <div className="ui row middle aligned">
@@ -36,19 +51,19 @@ class ExclusiveBooking extends React.Component {
                   </div>
 
                   <div className="five wide column">
-                              <h4 className="ui header">
-                            <i className="trophy icon"></i>
+                            <h4 className="ui header">
+
                             <div className="content">
                               Type
                               <div className="ui inline dropdown" ref="producttypes">
-                                <div className="text">today</div>
+
                                 <i className="dropdown icon"></i>
-                                <div className="menu">
-                                  <div className="header">Adjust time span</div>
-                                  <div className="active item" data-text="today">Today</div>
-                                  <div className="item" data-text="this week">This Week</div>
-                                  <div className="item" data-text="this month">This Month</div>
-                                </div>
+                                  <div className="menu">
+                                    <div className="header">Adjust time span</div>
+                                    <div className="active item" data-text="Small">Small</div>
+                                    <div className="item" data-text="Medium">Medium</div>
+                                    <div className="item" data-text="Large">Large</div>
+                                  </div>
                               </div>
                             </div>
                           </h4>
@@ -61,7 +76,7 @@ class ExclusiveBooking extends React.Component {
 
                       </div>
                                   </div>
-                  <div className="three wide column centered"><h4>Amount: <span>10000</span></h4></div>
+                  <div className="three wide column centered"><h4>Amount: <span>3,000</span></h4></div>
                 </div>
                 <div className="ui row middle aligned stackable">
                   <div className="three wide column">
@@ -73,17 +88,17 @@ class ExclusiveBooking extends React.Component {
 
                   <div className="five wide column paddingleft">
                               <h4 className="ui header">
-                            <i className="trophy icon"></i>
+
                             <div className="content">
                               Type
                               <div className="ui inline dropdown" ref="producttypes">
-                                <div className="text">today</div>
+
                                 <i className="dropdown icon"></i>
                                 <div className="menu">
                                   <div className="header">Adjust time span</div>
-                                  <div className="active item" data-text="today">Today</div>
-                                  <div className="item" data-text="this week">This Week</div>
-                                  <div className="item" data-text="this month">This Month</div>
+                                  <div className="active item" data-text="Small">Today</div>
+                                  <div className="item" data-text="Medium">This Week</div>
+                                  <div className="item" data-text="Large">This Month</div>
                                 </div>
                               </div>
                             </div>
@@ -93,17 +108,17 @@ class ExclusiveBooking extends React.Component {
                                         <div className="ui mini icon input buttons">
                                         <button className="mini ui left attached button"><i className="minus icon"></i></button>
                       <input className="countInput" type="text" placeholder="5"/>
-                      <button className="right attached mini ui button"><i className="plus icon"></i></button>
+                      <button className="right attached mini ui button" onClick={this.addToCart()}><i className="plus icon"></i></button>
 
                       </div>
-                                  </div>
-                  <div className="three wide column centered"><h4>Amount: <span>10000</span></h4></div>
+                  </div>
+                  <div className="three wide column centered"><h4>Amount: <span>3,000</span></h4></div>
                 </div>
 
                   </div>
       </div>
       <div className="five wide column paddingleft fullvh">
-        <Cart />
+        <Cart cartItems={this.state.cartItems} />
       </div>
       </div>
     );

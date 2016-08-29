@@ -4,6 +4,15 @@ import Cart from "../common/Cart";
 import Gallery from "../gallery/ArtistGallery";
 
 class ArtistProfile extends React.Component {
+  constructor(){
+    super();
+
+    this.state = { cartItems : [{ title: 'Product ', price: 3000, quantity: '1'}] };
+
+  }
+
+
+
   render() {
     return (
       <div className="ui grid">
@@ -54,7 +63,7 @@ class ArtistProfile extends React.Component {
 
       </div>
       <div className="five wide column paddingleft fullvh">
-        <Cart />
+        <Cart cartItems={this.state.cartItems} />
       </div>
       </div>
     );

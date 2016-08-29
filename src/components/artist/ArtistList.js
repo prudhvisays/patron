@@ -4,6 +4,14 @@ import {Link, IndexLink} from "react-router";
 import Cart from "../common/Cart";
 
 class ArtistList extends React.Component {
+
+  constructor(){
+    super();
+
+    this.state = { cartItems : [{ title: 'Product ', price: 3000, quantity: '1'}] };
+
+  }
+
   render() {
     const settings = {
       dots: false,
@@ -153,7 +161,7 @@ class ArtistList extends React.Component {
       </div>
       </div>
       <div className="five wide column paddingleft fullvh">
-        <Cart />
+        <Cart cartItems={this.state.cartItems} />
       </div>
       </div>
     );

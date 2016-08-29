@@ -2,6 +2,14 @@ import React from 'react';
 import Cart from "../common/Cart";
 
 class ComboPage extends React.Component {
+
+  constructor(){
+    super();
+
+    this.state = { cartItems : [{ title: 'Product ', price: 3000, quantity: '1'}] };
+
+  }
+
   render() {
     return (
       <div className="ui grid">
@@ -81,7 +89,7 @@ class ComboPage extends React.Component {
       </div>
 
       <div className="five wide column paddingleft fullvh">
-        <Cart />
+        <Cart cartItems={this.state.cartItems} />
       </div>
       </div>
     );
