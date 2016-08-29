@@ -127,6 +127,9 @@ body{
   box-shadow: none !important;
 }
 
+.ui.card>.image, .ui.cards>.card>.image{
+  background: #fff !important;
+}
 /*padding*/
 .paddingright{
   padding-right: 0 !important;
